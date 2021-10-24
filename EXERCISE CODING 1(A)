@@ -1,0 +1,26 @@
+package exerciseOne;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length;
+		double width;
+		double area;
+		double perimeter;
+		
+		length = 5;
+		width = 4;
+		
+		area = length * width;
+		System.out.print("The area of retangle is ");
+		System.out.println(area);
+		
+		perimeter = ((length*2) + (width*2));
+		System.out.print("The perimeter of rectangle is " );
+		System.out.println(perimeter);
+		
+
+	}
+
+}
